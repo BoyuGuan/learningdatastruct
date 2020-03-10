@@ -1,0 +1,17 @@
+﻿  datastruct.cpp
+E:\coding\data_struct\datastruct\datastruct\Sqlist.h(12,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+E:\coding\data_struct\datastruct\datastruct\stack.h(11,1): warning C4005: “OVERFLOW”: 宏重定义
+  SLinkList.cpp
+E:\coding\data_struct\datastruct\datastruct\Sqlist.h(12): message : 参见“OVERFLOW”的前一个定义
+  Sqlist.cpp
+E:\coding\data_struct\datastruct\datastruct\SLinkList.cpp(4,63): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\coding\data_struct\datastruct\datastruct\Sqlist.h(12,1): warning C4005: “OVERFLOW”: 宏重定义
+  stack.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+E:\coding\data_struct\datastruct\datastruct\stack.h(11,1): warning C4005: “OVERFLOW”: 宏重定义
+  LinList.cpp
+  正在生成代码...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+E:\coding\data_struct\datastruct\datastruct\stack.cpp(26): warning C4715: “push”: 不是所有的控件路径都返回值
+  datastruct.vcxproj -> E:\coding\data_struct\datastruct\x64\Debug\datastruct.exe
