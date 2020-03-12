@@ -81,11 +81,11 @@ void MarkPrint(int a, int b, bool maze[][10]) {
 	maze[a][b] = 1;
 }
 
-void showthepath(stack S) {
+void showthepath(stack S, int end[]) {
 	Selemtype* p = S.base;
 	while (p != S.top)
 	{
-		cout << p->seat[0] << "and" << p->seat[1] << "     ";
+		cout << "--->"<< p->seat[0] << "and" << p->seat[1] ;
 		p++;
 	}
 }
@@ -98,7 +98,7 @@ int MazePath(bool maze[][10], int start[], int end[]) {
 			assign_e(e, curstep, curpos, 1);
 			push(S, e);
 			if (equal(curpos, end)) {
-				showthepath(S);
+				showthepath(S,end);
 				return 1;
 			}
 			move(curpos, 1);
@@ -123,3 +123,5 @@ int MazePath(bool maze[][10], int start[], int end[]) {
 	} while (!StackEmpty(S));
 	return -1;
 }
+
+/*ssdasdasdad*/
