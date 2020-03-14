@@ -40,6 +40,8 @@ bool StackEmpty(stack S) {
 	else return 0;
 }
 
+
+
 void assign_a(int a[], int a1, int b) {
 	a[0] = a1;
 	a[1] = b;
@@ -124,4 +126,3 @@ int MazePath(bool maze[][10], int start[], int end[]) {
 	return -1;
 }
 
-/*ssdasdasdad*/

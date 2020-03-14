@@ -28,7 +28,6 @@ typedef struct stack
 }SqStack;
 
 
-
 int Createstack(stack& S) ;
 
 int GetTop(SqStack S, Selemtype& e);
@@ -44,6 +43,7 @@ bool StackEmpty(stack S);
 //以上为stack的基本函数
 
 
+
 void assign_a(int a[], int a1, int b); 
 
 void assign_e(Selemtype& e, int curstep, int curpos[], int  di);
@@ -55,6 +55,8 @@ bool pass(stack S, int curpos[], bool maze[10][10]);
 void move(int a[], int b);
 
 int MazePath(bool maze[][10], int start[], int end[]);
+
+//以上为迷宫函数
 
 
 
