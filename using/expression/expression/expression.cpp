@@ -1,5 +1,6 @@
 #include "expression.h"
 #include <stdlib.h>
+#include <cmath>
 
 int Createopndstack(opndstack& S) {
 	S.base = (double*)malloc(80 * sizeof(double));
@@ -152,8 +153,28 @@ double EvaluateExpression(char a[])
 	char x; double a1; double a2;
 	while (c != '#' || GetTop(optr) != '#')
 	{
-		if (!in(c)) {
+		if (!in(c) && c != '.')  {
 			push(opnd, c); c = getchar(a);
+			while (!in(c) && c != '.')
+			{
+				double e;
+				pop(opnd,e);
+				e = e * 10 + c-'0';
+				push( opnd , e);
+				c = getchar(a);
+			} 
+		}
+		else if (c == '.') {
+			c = getchar(a); int i = 1;
+			while (!in(c))
+			{
+				double e;
+				pop(opnd, e);
+				e = e + pow(10, -1*i)*(c-'0');
+				push(opnd, e);
+				c = getchar(a);
+				i++;
+			}
 		}
 		else
 		{
