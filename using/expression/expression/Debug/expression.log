@@ -1,4 +1,2 @@
-﻿  main.cpp
-E:\coding\data_struct\datastruct\cloud\using\expression\expression\expression.h(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“opndstack”的左侧
-E:\coding\data_struct\datastruct\cloud\using\expression\expression\expression.h(30,2): warning C4091: “typedef ”: 没有声明变量时忽略“optrstack”的左侧
+﻿  peilin.cpp
   expression.vcxproj -> E:\coding\data_struct\datastruct\cloud\using\expression\Debug\expression.exe

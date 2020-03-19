@@ -152,16 +152,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="datastruct.cpp" />
+    <ClCompile Include="linkQueue.cpp" />
     <ClCompile Include="SLinkList.cpp" />
     <ClCompile Include="Sqlist.cpp" />
+    <ClCompile Include="sqQueue.cpp" />
     <ClCompile Include="stack.cpp" />
-    <ClCompile Include="LinList.cpp" />
+    <ClCompile Include="LinkList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h" />
+    <ClInclude Include="linkQueue.h" />
     <ClInclude Include="SLinkList.h" />
     <ClInclude Include="Sqlist.h" />
-    <ClInclude Include="polyn.h" />
+    <ClInclude Include="sqQueue.h" />
     <ClInclude Include="stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -21,13 +21,19 @@
     <ClCompile Include="stack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LinList.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="SLinkList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Sqlist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linkQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sqQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,10 +47,13 @@
     <ClInclude Include="Sqlist.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="polyn.h">
+    <ClInclude Include="stack.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="stack.h">
+    <ClInclude Include="linkQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sqQueue.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

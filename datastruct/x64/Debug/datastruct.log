@@ -1,5 +1,6 @@
-﻿  stack.cpp
-E:\coding\data_struct\datastruct\cloud\datastruct\stack.h(11,1): warning C4005: “OVERFLOW”: 宏重定义
+﻿  datastruct.cpp
+E:\coding\data_struct\datastruct\cloud\datastruct\Sqlist.h(12,1): warning C4005: “OVERFLOW”: 宏重定义
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
-E:\coding\data_struct\datastruct\cloud\datastruct\stack.cpp(26): warning C4715: “push”: 不是所有的控件路径都返回值
+E:\coding\data_struct\datastruct\cloud\datastruct\stack.h(11,1): warning C4005: “OVERFLOW”: 宏重定义
+E:\coding\data_struct\datastruct\cloud\datastruct\Sqlist.h(12): message : 参见“OVERFLOW”的前一个定义
   datastruct.vcxproj -> E:\coding\data_struct\datastruct\cloud\x64\Debug\datastruct.exe

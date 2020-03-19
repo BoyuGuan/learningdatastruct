@@ -33,11 +33,7 @@ int pop(stack& S, Selemtype& e) {
 }
 
 bool StackEmpty(stack S) {
-	if (S.base == S.top)
-	{
-		return 1;
-	}
-	else return 0;
+	return S.top == S.base;
 }
 
 

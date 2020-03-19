@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="expression.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="peilin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="expression.h" />
